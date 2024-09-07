@@ -31,7 +31,6 @@ public class VariableDemo01 {
 }
 ```
 
-
 #### Data Type
 *What is a Data Type in Java Programming?*
 - A data type in Java defines the type of data that a variable can store. Java is a strongly-typed language, which means every variable must be declared with a data type before it is used.
@@ -80,3 +79,11 @@ public class OperatorDemo03 {
 	}
 }
 ```
+---
+#### Exersice:
+Exercise 1:
+- Write a Java program to declare different types of variables (int, double, char, boolean, String). Assign them values and print each variable's value.
+Exercise 2:
+- Write a Java program to perform the four basic arithmetic operations: addition, subtraction, multiplication, and division. Take two integer inputs from the user and perform these operations.
+
+	
