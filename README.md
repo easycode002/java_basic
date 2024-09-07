@@ -1,90 +1,93 @@
-# Day01
-#### Hello world with java programming first with IDE.
+## Day02
+#### Assignment Operators
+Assignment operators are used to assign values to variables.
 ```bash
-package Day01;
+package Day02;
 
-public class HelloWorld {
+public class Assignment01 {
 	public static void main(String[] args) {
-		System.out.println("Hello World...");
+		int x = 10;
+		System.out.println("Initial default value: " + x);
+		x += 5;
+		System.out.println("After += 5: " + x);
+		x -= 5;
+		System.out.println("After -= 5: " + x);
+		x *= 5;
+		System.out.println("After *= 5: " + x);
+		x /= 5;
+		System.out.println("After %= 5: " + x);
+	}
+}
+```
+#### Relational Operators
+Relational operators compare two values and return a boolean (true or false).
+```bash
+package Day02;
+
+public class Relational02 {
+	public static void main(String[] args) {
+		int x, y;
+		x = 10;
+		y = 30;
+		System.out.println("x == y : " + (x == y));
+		System.out.println("x != y : " + (x != y));
+		System.out.println("x > y  : " + (x > y));
+		System.out.println("x < y  : " + (x < y));
+		System.out.println("x <= y : " + (x <= y));
+		System.out.println("x >= y : " + (x >= y));
+	}
+}
+```
+#### Logical Operators
+Logical operators are used to perform logical operations on boolean values.
+```bash
+package Day02;
+
+public class Logical03 {
+	public static void main(String[] args) {
+		boolean a, b;
+		a = true;
+		b = false;
+		System.out.println("!a  : " + (!a));
+		System.out.println("!b  : " + (!b));
+		System.out.println("a && b : " + (a && b));
+		System.out.println("a || b : " + (a || b));
+	}
+}
+```
+#### Increment/Decrement Operators
+These operators are used to increment or decrement the value of a variable by 1
+```bash
+package Day02;
+
+public class Increment_Decrement04 {
+	public static void main(String[] args) {
+		int num1, num2;
+		num1 = 20;
+		System.out.println("++num1 : "+(++num1));
+		System.out.println("num1++ : "+(num1++));
+		num2 = 12;
+		System.out.println("--num2 : "+(--num2));
+		System.out.println("num2-- : "+(num2--));
 	}
 }
 ```
 
-#### Variable
-*What is a Variable in Java Programming?*
-- A variable in Java is a container that holds data values during the execution of a program. Each variable in Java has a data type that specifies the type of data it can store, such as integers, floating-point numbers, characters, or strings. Variables are fundamental to programming because they allow us to store and manipulate data dynamically.
-*Why Use Variables in Java?*
- - Storing Data: Variables allow us to store data values that can change throughout the program.
- - Dynamic Calculations: They enable us to perform operations (like calculations) and store the results.
- - Readable Code: By giving names to data, variables make code more readable and understandable.
+#### Ternary (Conditional) Operator
+The ternary operator is a shorthand for the if-else statement. 
 ```bash
-package Day01;
+package Day02;
 
-public class VariableDemo01 {
+public class Ternary05 {
 	public static void main(String[] args) {
-		int a = 200;
-		String name = "Cito Traning Center";
-		System.out.println(a);
-		System.out.println(name);
-		// integer = int
+		int a, b;
+		a = 1;
+		b = 7;
+		String str1 = "Weak Up";
+		String str2 = "Sleep well"	;
+
+		String value = (a > b) ? str2 : str1;
+		System.out.println("Value  : " + value);
 	}
 }
 ```
-
-#### Data Type
-*What is a Data Type in Java Programming?*
-- A data type in Java defines the type of data that a variable can store. Java is a strongly-typed language, which means every variable must be declared with a data type before it is used.
-```bash
-package Day01;
-
-public class DataTypeDemo02 {
-	public static void main(String[] args) {
-		// Declare variable:
-		int age=19;				// store integer number
-		double price=11.22;		// store decimal value
-		boolean isLogin=true;	// store true(1) false(0)
-		char grade = 'A';		// store single character
-		String name = "Cito";	// store multiple character
-		
-		// Output
-		System.out.println("Integer		: "+age);
-		System.out.println("Double		: "+price);
-		System.out.println("Boolean		: "+isLogin);
-		System.out.println("Character	: "+grade);
-		System.out.println("String		: "+name);
-		// syso = System.out.println();
-	}
-}
-```
-
-#### Operator
-*What is an Operator in Java Programming?*
-- An operator in Java is a symbol or keyword that performs a specific operation on one or more operands (variables or values) to produce a result. 
-```bash
-package Day01;
-
-public class OperatorDemo03 {
-	public static void main(String[] args) {
-		int a = 10;
-		int b = 5;
-		// Sum
-		int sum = a + b;
-		// Subtraction
-		int sub = a - b;
-		// Multiplication
-		int multi = a * b;
-		// Division
-		int div = a / b;
-		System.out.println(sum + ", " + sub + ", " + multi + ", " + div);
-	}
-}
-```
----
-#### Exersice:
-1.Exercise 1:
-  - Write a Java program to declare different types of variables (int, double, char, boolean, String). Assign them values and print each variable's value.
-
-2.Exercise 2:
-  - Write a Java program to perform the four basic arithmetic operations: addition, subtraction, multiplication, and division. Take two integer inputs from the user and perform these operations.
-
-	
