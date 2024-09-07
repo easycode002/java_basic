@@ -81,9 +81,10 @@ public class OperatorDemo03 {
 ```
 ---
 #### Exersice:
-Exercise 1:
-- Write a Java program to declare different types of variables (int, double, char, boolean, String). Assign them values and print each variable's value.
-Exercise 2:
-- Write a Java program to perform the four basic arithmetic operations: addition, subtraction, multiplication, and division. Take two integer inputs from the user and perform these operations.
+1.Exercise 1:
+  - Write a Java program to declare different types of variables (int, double, char, boolean, String). Assign them values and print each variable's value.
+
+2.Exercise 2:
+  - Write a Java program to perform the four basic arithmetic operations: addition, subtraction, multiplication, and division. Take two integer inputs from the user and perform these operations.
 
 	
