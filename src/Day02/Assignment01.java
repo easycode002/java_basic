@@ -1,5 +1,4 @@
 package Day02;
-// Assignment operators are used to assign values to variables.
 
 public class Assignment01 {
 	public static void main(String[] args) {
