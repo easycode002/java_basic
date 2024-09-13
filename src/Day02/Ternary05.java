@@ -1,6 +1,5 @@
 package Day02;
 
-// The ternary operator is a shorthand for the if-else statement. 
 public class Ternary05 {
 	public static void main(String[] args) {
 		int a, b;

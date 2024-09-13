@@ -1,5 +1,5 @@
 package Day02;
-// These operators are used to increment or decrement the value of a variable by 1
+
 public class Increment_Decrement04 {
 	public static void main(String[] args) {
 		int num1, num2;
